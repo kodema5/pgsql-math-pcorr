@@ -14,7 +14,7 @@ begin
 end;
 $$ language plpgsql immutable strict;
 
-create operator public.+ (
+create operator + (
     leftarg = math.pcorr_t,
     rightarg = math.pcorr_t,
     procedure = math.add,

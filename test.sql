@@ -2,9 +2,9 @@ select exists (select 1 from pg_available_extensions where name='pgtap') as has_
 \gset
 \if :has_pgtap
 
-\i equ.sql
-\i test_corr.sql
-\i test_pcorr.sql
+\ir equ.sql
+\ir test_corr.sql
+\ir test_pcorr.sql
 
 select * from public.runtests('math'::name);
 

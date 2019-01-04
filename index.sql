@@ -15,11 +15,11 @@ create type math.pcorr_t as (
     sy numeric
 );
 
-\i pcorr.sql
-\i coeff.sql
-\i add.sql
-\i sum.sql
+\ir pcorr.sql
+\ir coeff.sql
+\ir add.sql
+\ir sum.sql
 
-\i test.sql
+\ir test.sql
 
 \endif
