@@ -20,6 +20,6 @@ create type math.pcorr_t as (
 \ir add.sql
 \ir sum.sql
 
-\ir test.sql
+\ir tests/index.sql
 
 \endif
